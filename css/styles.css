@@ -1,24 +1,40 @@
 html {background: url('../img/bg.jpg');}
 
-div {background: white;
+div {
 	border-radius:30px;
-	height:500px;
-	width: 500px;}
+	height:650px;
+	width: 500px;
+	margin: 20px;
+	padding-left:10px;
+	padding-right: 10px;}
 
-.courses 	{height: 425px;}
-.skills 	{height: 275px;}
-.work 		{height: 850px;
+.courses 	{height: 480px;
+			}
+.skills 	{height:350px;
+			width: 350px;
+			float: right;
+			padding: 0px 20px 0px 20px;
+			}
+.work 		{height: 900px;
 			 float: right;
 			 position: top;}
-ul li {list-style-image: url("../img/bullet.png");}
+ul li {list-style-image: url("../img/bullet.png");
+		color:white;}
 
 h1 {font-family: 'Vidaloka', serif;
-	font-weight: 64px;}
+	font-weight: 64px;
+	color: black;
+	text-align: center;}
 
-h2 {font-family: 'Vidaloka', serif;}
+h2 {font-family: 'Vidaloka', serif;
+	color: black;
+	text-align: center;}
 
-h3 {font-family: 'Vidaloka', serif;}
+h3 {font-family: 'Vidaloka', serif;
+	color: white;
+	text-align: center;}
 
-body {font-family: 'Source Sans Pro', sans-serif;}
+body {font-family: 'Source Sans Pro', sans-serif;
+	color: #084D6B;}
 
-.showgrid {background: url("../img/grid-bg.png");}
+{background: url("../img/grid-bg.png");}
