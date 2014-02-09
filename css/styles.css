@@ -1,13 +1,16 @@
 html {background: url('../img/bg.jpg');}
 
-div {
-	border-radius:30px;
+div {background: cream;
+	border: 2px double #3D2A00;
+	border-radius: 30px;
+	opacity: 0.8;
 	height:650px;
 	width: 500px;
 	margin: 20px;
 	padding-left:10px;
 	padding-right: 10px;}
-
+.education {height: 580px;
+			margin: 0px 20px 0px 20px;}
 .courses 	{height: 480px;
 			}
 .skills 	{height:350px;
@@ -15,7 +18,7 @@ div {
 			float: right;
 			padding: 0px 20px 0px 20px;
 			}
-.work 		{height: 900px;
+.work 		{height: 1000px;
 			 float: right;
 			 position: top;}
 ul li {list-style-image: url("../img/bullet.png");
@@ -27,7 +30,7 @@ h1 {font-family: 'Vidaloka', serif;
 	text-align: center;}
 
 h2 {font-family: 'Vidaloka', serif;
-	color: black;
+	color: white;
 	text-align: center;}
 
 h3 {font-family: 'Vidaloka', serif;
