@@ -1,7 +1,15 @@
+html {background: url('../img/bg.jpg');}
 
 div {background: white;
-	border-radius:30px;}
+	border-radius:30px;
+	height:500px;
+	width: 500px;}
 
+.courses 	{height: 425px;}
+.skills 	{height: 275px;}
+.work 		{height: 850px;
+			 float: right;
+			 position: top;}
 ul li {list-style-image: url("../img/bullet.png");}
 
 h1 {font-family: 'Vidaloka', serif;
